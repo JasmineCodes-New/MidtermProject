@@ -26,7 +26,7 @@ def talkToAlbusDumbledore(): #uses dictionary for options - Albus Dumbledore fun
         if option == 1:
             # having trouble letting the user choose more than one option
             # after second choice, game starts over
-            # #issue resolved with while loop
+            # issue resolved with while loop
             print(door_dict[1])
             print("Choose again!")
             option = int(input("Next Guess: "))
