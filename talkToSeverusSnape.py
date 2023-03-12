@@ -13,7 +13,7 @@ def talkToSeverusSnape():
     while userInput not in actions:
         userInput = input()
         if userInput == "flee":
-            print("You chose to run away. You run back towards the beginning")
+            print("You chose to run away. You run and get lost")
             endingScene()
         elif userInput == "fight":
             print("You chose the foolish action of fighting Professor Snape with no wand. You died! Game over")

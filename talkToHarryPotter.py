@@ -14,9 +14,9 @@ def talkToHarryPotter(): # talk to Harry Potter function - user can choose direc
         elif userInput == "left":
             talkToSeverusSnape()
         elif userInput == "backwards":
+            print("If you choose backwards: the game will end")
             print("You are choosing to exit the game")
             print("Goodbye!")
             quit()
         else:
             print("You must choose a valid option: left or right.")
-            print("If you choose backwards: the game will end")
